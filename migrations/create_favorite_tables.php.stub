@@ -36,6 +36,5 @@ class CreateFavoriteTables extends Migration
     {
         $prefix = config('ibrand.app.database.prefix', 'ibrand_');
         Schema::dropIfExists($prefix . 'favorite');
-
     }
 }
